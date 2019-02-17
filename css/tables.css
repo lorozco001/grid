@@ -1,0 +1,48 @@
+table{
+	display: inline-block;
+	background: white;
+	padding: 0px;
+	border-collapse: collapse;
+	margin: 0px;
+	font-family: sans-serif;
+}
+td,th{
+	padding: 10px;
+}
+thead{
+	font-size: 18px;
+}
+tr:nth-child(even){
+	background: rgba(0,0,0,0.05);
+}
+tr{	border: 0.5px solid rgba(255,255,255,0.3);}
+
+/*--------------------  TABLAS    -------------------------*/
+/*----------------- Tabla Default -------------------*/
+.thead-default{background:rgba(0,0,0,0.3); color: white;}
+.tbody-default th{background:rgba(0,0,0,0.3); color: white;}
+.tbody-default tr:hover td{background: rgba(0,0,0,0.15);}
+/*----------------- Tabla Primario -----------------*/
+.thead-primary{background: #3498dc; color: white;}
+.tbody-primary th{background: #3498dc; color: white;}
+.tbody-primary tr:hover td{background: #b8deff;}
+/*----------------- Tabla Éxito --------------------*/
+.thead-success{background: #5cb85c; color:white;}
+.tbody-success th{background: #5cb85c; color: white;}
+.tbody-success tr:hover td{background: #b8ecca;}
+/*----------------- Tabla Información --------------*/
+.thead-info{background: #00cfef; color:white;}
+.tbody-info th{background: #00cfef; color: white;}
+.tbody-info tr:hover td{background: #b7e5eb;}
+/*----------------- Tabla Alerta -------------------*/
+.thead-warning{background: #f39c12;color: white;}
+.tbody-warning th{background: #f39c12; color: white;}
+.tbody-warning tr:hover td{background: #fbd999;}
+/*----------------- Tabla Peligro ------------------*/
+.thead-danger{background: #dd4b39; color:white;}
+.tbody-danger th{background: #dd4b39; color: white;}
+.tbody-danger tr:hover td{background: #fbc0c8;}
+/*----------------- Tabla Dark -------------------*/
+.thead-dark{background: #535353; color: white;}
+.tbody-dark th{background: #535353; color: white;}
+.tbody-dark tr:hover td{background: #c4c6c9;}
